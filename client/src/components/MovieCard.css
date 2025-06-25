@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #1f2937; /* Tailwind's bg-gray-800 */
+  border-radius: 1rem; /* 2xl rounded */
+  width: 16.5rem; /* w-66 = 66 * 0.25rem = 16.5rem = 264px */
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-0.25rem); /* hover:-translate-y-1 = -4px */
+}
+.card-img {
+  border-radius: 0.5rem; /* rounded-lg = 8px */
+  height: 13rem;         /* h-52 = 52 * 0.25rem = 13rem = 208px */
+  width: 100%;           /* w-full = 100% width */
+  object-fit: cover;     /* object-cover = cover the container */
+  object-position: right bottom; /* object-right-bottom */
+  cursor: pointer;       /* cursor-pointer = pointer cursor */
+}
+.movie-title{
+      font-weight: 600;    /* font-semibold = semi-bold */
+  margin-top: 0.5rem;   /* mt-2 = 2 * 0.25rem = 0.5rem */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;  /* truncate = single-line ellipsis */
+}
+.movie-date{
+  font-size: 0.875rem;     /* text-sm = 14px = 0.875rem */
+  color: #9ca3af;          /* text-gray-400 from Tailwind = #9ca3af */
+  margin-top: 0.5rem;   
+}
+.row-div{
+  display: flex;                /* flex */
+  align-items: center;          /* items-center */
+  justify-content: space-between; /* justify-between */
+  margin-top: 1rem;             /* mt-4 */
+  padding-bottom: 0.75rem; 
+}
+.buy-btn{
+  padding: 0.5rem 1rem; /* py-2 px-4 */
+  font-size: 0.75rem; /* text-xs */
+  background-color: var(--primary); /* bg-primary */
+  border-radius: 9999px; /* rounded-full */
+  font-weight: 500; /* font-medium */
+  cursor: pointer;
+  transition: all 0.2s ease; /* transition */
+  background-color: white;
+  color: black;
+}
+.buy-btn:hover{
+    background-color: var(--primary-dull); /* hover:bg-primary-dull */
+}
+.rate{
+      display: flex; /* flex */
+  align-items: center; /* items-center */
+  gap: 0.25rem; /* gap-1 */
+  font-size: 0.875rem; /* text-sm */
+  color: #9ca3af; /* text-gray-400 */
+  margin-top: 0.25rem; /* mt-1 */
+  padding-right: 0.25rem; /* pr-1 */
+}
+.rate-icon{
+  width: 1rem;          /* w-4 */
+  height: 1rem;         /* h-4 */
+  color:white;
+  fill:white;  /* fill-primary */
+}
+
