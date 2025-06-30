@@ -1,6 +1,6 @@
 import React from 'react'
 import FeatureSection from '../components/FeatureSection'
-import HeroSection from '../components/heroSection'
+import HeroSection from '../components/HeroSection'
 import TrailerSection from '../components/TrailerSection'
 
 const Home = () => {
