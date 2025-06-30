@@ -28,6 +28,9 @@ body,html{
   margin:auto;
   height:90%;
 }
+.no-scrollbar{
+  scrollbar-width:none;
+}
 
 
 

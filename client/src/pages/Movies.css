@@ -1,0 +1,40 @@
+/* Container holding the entire movie section */
+.movies-container {
+  position: relative;
+  padding: 0 1rem;
+  margin-top: 3rem;
+  margin-bottom: 15rem;
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+/* Heading above movie list */
+/* Heading above movie list */
+.movies-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-align:start;   
+  padding-left:10%;
+}
+
+
+/* Flex container for movie cards */
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.zero-movies{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.zero-movies p{
+  font-size: 1.875rem;
+  font-weight: 700; 
+  text-align: center; 
+}

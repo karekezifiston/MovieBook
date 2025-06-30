@@ -60,8 +60,8 @@ const Navbar = () => {
             <Link onClick={handleLinkClick} className="w" to="/">Home</Link>
             <Link onClick={handleLinkClick} className="a" to="/movies">Movies</Link>
             <Link onClick={handleLinkClick} className="a" to="/">Theaters</Link>
-            <Link onClick={handleLinkClick} className="a" to="/#projects">Releases</Link>
-            <Link onClick={handleLinkClick} className="a" to="/#favorite">Favorites</Link>
+            <Link onClick={handleLinkClick} className="a" to="/">Releases</Link>
+            <Link onClick={handleLinkClick} className="a" to="/favorite">Favorites</Link>
             {
               !user ? (
                 <button onClick={openSignIn} className="button-c">
