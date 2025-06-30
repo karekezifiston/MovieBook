@@ -1,0 +1,175 @@
+.movie-details-wrapper {
+  padding: 4rem 1.5rem;
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .movie-details-container {
+    flex-direction: row;
+  }
+}
+
+.movie-poster {
+  max-width: 280px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.movie-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.language {
+  color: #b5b5b5;
+  font-weight: bold;
+}
+
+.movie-title { 
+  font-weight: 600;
+  max-width: 400px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #bbb;
+}
+
+.star-icon {
+  color: #ffffffd4;
+  fill: #ffffffc3;
+}
+
+.overview {
+  color: #999;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.movie-meta {
+  color: #ccc;
+}
+
+.movie-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.trailer-btn,
+.buy-btn,
+.show-more-btn {
+    display: flex;
+    align-items: center;
+    gap:10px;
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  background-color: #ededed;
+  color: rgb(88, 88, 88);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.trailer-btn {
+  background-color: #000000;
+  color: white;
+}
+
+.trailer-btn:hover {
+  background-color: #444;
+}
+
+.buy-btn:hover,
+.show-more-btn:hover {
+  background-color: #ffffff97;
+}
+
+.heart-btn {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 4rem 0 1rem 0;
+}
+
+.cast-list-wrapper {
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.cast-list {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  width: max-content;
+}
+
+.cast-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cast-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cast-name {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.suggested-movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.show-more-btn {
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.show-more-btn:hover {
+  background-color: #ffffff9a;
+}

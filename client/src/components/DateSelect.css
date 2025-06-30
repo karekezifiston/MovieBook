@@ -1,0 +1,74 @@
+.date-select-wrapper {
+  padding-top: 30px;
+}
+
+.date-select-container {
+  display: flex;
+  align-items:center    ;
+  gap: 2.5rem;
+  position: relative;
+  padding: 2rem;
+  background-color: rgba(166, 166, 166, 0.1); /* example bg-primary/10 */
+  border: 1px solid rgba(0, 0, 0, 0.2);  /* border-primary/20 */
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.date-list-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+}
+
+.date-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 32rem;
+}
+
+.date-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 56px;
+  border-radius: 6px;
+  border: 1px solid rgba(50, 50, 50, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.date-btn:hover {
+  background-color: rgba(53, 53, 53, 0.2);
+}
+
+.date-btn.selected {
+  background-color: #e9e9e9;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.book-btn {
+  margin-top: 1.5rem;
+  padding: 0.5rem 2rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #006fe6;
+}
