@@ -8,7 +8,7 @@ import MyBookings from './pages/MyBookings'
 import Favorite from './pages/Favorite'
 import { Toaster } from 'react-hot-toast'
 import Footer from './components/Footer'
-import Navbar from './components/NavBar'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
