@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="h-container">
         <h3 className="nav_logo">
           <Link className="kg" to="/">
-            <img src={assets.logo} width={130} alt="" />
+            <img src={assets.logo} width={40} alt="" />
           </Link>
         </h3>
 
