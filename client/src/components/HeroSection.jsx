@@ -10,22 +10,20 @@ const HeroSection = () => {
     return (
         <div className="hero-section">
             <div className='all-texts'>
-                <img src={assets.marvelLogo} alt="" className="hero-logo" />
-                <h1 className="hero-title">Guardians <br />of the Galaxy</h1>
+                {/* <img src={assets.marvelLogo} alt="" className="hero-logo" /> */}
+                <h1 className="hero-title">Book a Seat <br />Catch the Magic!</h1>
                 <div className='short-texts'>
                 <div className='ty'>
-                    <span>Action | Adventure | Sci-Fi</span>
+                    <span>Fun | Magic | Memories</span>
                 </div>
                 <div className="hero-meta">
-                    <CalendarIcon className="icon" /> 2018
+                    {/* <CalendarIcon className="icon" /> 2018 */}
                 </div>
                 <div className="hero-meta">
-                    <CalendarIcon className="icon" /> 2h 8m
+                    {/* <CalendarIcon className="icon" /> 2h 8m */}
                 </div>
                 </div>
-              <p>In a post-apocalyptic world where cities ride on wheels and 
-                consume each other to survive, two peaple meet in london and try to stop a 
-                conspriracy.
+              <p>You can now book your seats for the best movies. Enjoy action, drama, and fun with your loved ones. Don’t miss out. grab your spot today!.
               </p>
               <button className='hero-btn' onClick={()=>navigate('/movies')}>Explore Movies
                 <ArrowRight className='w-5 h-5'/>
